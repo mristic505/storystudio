@@ -38,6 +38,7 @@ if (!empty($errors)) {
         
         // Taxonomy ========
         $tax_query = array( 
+            'relation' => 'AND',
             array(
                 'taxonomy' => 'category',
                 'field'    => 'slug',
@@ -49,15 +50,13 @@ if (!empty($errors)) {
         if (!empty($tag)) {
             $tags = array();
             foreach ($tag as $t) {
-                array_push($tags, $t);
+                $tag_to_query = array(
+                    'taxonomy' => 'post_tag',
+                    'field'    => 'slug',
+                    'terms'    => $t
+                );
+                array_push($tax_query, $tag_to_query);
             }
-            $tags_to_query = array(
-                'taxonomy' => 'post_tag',
-                'field'    => 'slug',
-                'terms'    => $tags
-            );
-            // Add to Taxonomy terms ========
-            array_push($tax_query, $tags_to_query);
         }
         
         // If Search Term Exists ========
@@ -111,7 +110,6 @@ if (!empty($errors)) {
             } else {
                 $result = '<p>No results found 2.</p>';
             }
-
         }       
     }
     
