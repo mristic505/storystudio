@@ -15,7 +15,7 @@ get_header(); ?>
 
 				$post_type = 'attachment';
 
-				$category = 'self-portrait';
+				$category = array('self-portrait', 'collage');
 
 				// Taxonomy ========
 		        $tax_query = array( 
@@ -31,11 +31,11 @@ get_header(); ?>
 			                'field'    => 'slug',
 			                'terms'    => array('tag1'),
 			            ),
-			            array(
-			            	'taxonomy' => 'post_tag',
-			                'field'    => 'slug',
-			                'terms'    => array('tag2'),
-			            ),
+			            // array(
+			            // 	'taxonomy' => 'post_tag',
+			            //     'field'    => 'slug',
+			            //     'terms'    => array('tag2'),
+			            // ),
 		            ),		            
 		        );
 
@@ -53,7 +53,7 @@ get_header(); ?>
 	            if ( $regular_query->have_posts() ) {                
 	                while ( $regular_query->have_posts() ) {
 	                    $regular_query->the_post();
-	                    $result .= '<h2>'.get_the_title().'</h2><br>';
+	                    $result .= wp_get_attachment_url().'<br>';
 	                }                
 	                /* Restore original Post Data */
 	                wp_reset_postdata();
