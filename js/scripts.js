@@ -137,9 +137,7 @@ jQuery(document).ready(function($){
 		    })
 		    // using the fail promise callback
 		    .fail(function(data) {
-
 		        // show any errors
-		        // best to remove for production
 		        console.log(data);
 		    });
 		event.preventDefault();
@@ -150,15 +148,30 @@ jQuery(document).ready(function($){
 		swp_seacrh();
 	});
 
-	// Perform search on page load ===========
-	$(function() {
-		if($('form').hasClass('search-form')) {		
-			swp_seacrh();		
-		}
-	});
+	// Perform search on radio button and checkbox change ===========
 	$('.cat_radio_btn, .tag_radio_btn').change(function(){
 		swp_seacrh();		
 	});
+
+	// Get URL query
+	function getParameterByName(name, url) {
+	    if (!url) url = window.location.href;
+	    name = name.replace(/[\[\]]/g, "\\$&");
+	    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+	        results = regex.exec(url);
+	    if (!results) return null;
+	    if (!results[2]) return '';
+	    return decodeURIComponent(results[2].replace(/\+/g, " "));
+	}
+	var preselected_cat = getParameterByName('show');
+
+	// Preselect category based on URL query value ===========
+	$("#"+preselected_cat).attr("checked", "").change();
+
+
+	
+	
+
 
 
 

@@ -18,18 +18,18 @@ get_header(); ?>
 					<div class="inner">
 						<div class="row">
 							<div class="col-sm-6 visual-inquiry-gutter-small ">
-								<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/self-portrait-tile.jpg"></a>
+								<a href="<?php echo home_url(); ?>//visual-inquiry/visual-inquiry-artwork/?show=self-portrait"><img src="<?php echo get_template_directory_uri(); ?>/img/self-portrait-tile.jpg"></a>
 							</div>
 							<div class="col-sm-6 visual-inquiry-gutter-small ">
-								<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/collage-tile.jpg"></a>
+								<a href="<?php echo home_url(); ?>//visual-inquiry/visual-inquiry-artwork/?show=collage"><img src="<?php echo get_template_directory_uri(); ?>/img/collage-tile.jpg"></a>
 							</div>
 						</div>
 						<div class="row pt-4">
 							<div class="col-sm-6 visual-inquiry-gutter-small ">
-								<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/storytelling-tile.jpg"></a>
+								<a href="<?php echo home_url(); ?>//visual-inquiry/visual-inquiry-artwork/?show=storytelling"><img src="<?php echo get_template_directory_uri(); ?>/img/storytelling-tile.jpg"></a>
 							</div>
 							<div class="col-sm-6 visual-inquiry-gutter-small ">
-								<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/additional-artwork-tile.jpg"></a>
+								<a href="<?php echo home_url(); ?>//visual-inquiry/visual-inquiry-artwork/?show=additional"><img src="<?php echo get_template_directory_uri(); ?>/img/additional-artwork-tile.jpg"></a>
 							</div>
 						</div>			
 				    </div>
