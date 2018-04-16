@@ -24,8 +24,8 @@ get_header(); ?>
 									<div class="row">
 										<div class="col">
 											<h2 class="compact-mini-block__text-title align-self-start">Postcard Activity</h2>
-											<p class="align-self-center pr-5">Students can apply their watercolor, collage and composition skills to complete this one off activity. Then mail it to a friend!</p>
-											<a class="cta_blue align-self-end" href="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Postcard-Lesson-Plan.pdf">SEE MORE</a>
+											<p class="align-self-center pr-5">Students can apply their watercolor, collage and composition skills to complete this stand alone activity. Then mail it to a friend!</p>
+											<a class="cta_blue align-self-end" href="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Postcard-Activity.pdf">SEE MORE</a>
 										</div>
 									</div>
 								</div>

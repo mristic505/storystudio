@@ -122,6 +122,9 @@ jQuery(document).ready(function($){
 
 	function swp_seacrh() {
 
+		$('#swp_result').html('<img style="display:block;margin: 100px auto;" src="../../wp-content/themes/html5blank-stable/img/ss_loader_dark_blue.svg">');
+		$('.search_item').removeClass('fade_it_in');
+
 		var formData = $('#swp_form').serialize();
 		$.ajax({
 		    type        : 'POST', // define the type of HTTP verb we want to use (POST for our form)
@@ -133,7 +136,12 @@ jQuery(document).ready(function($){
 		    // using the done promise callback
 		    .done(function(data) {
 		        console.log(data);
-		        $('#swp_result').html(data.message);
+		        setTimeout(function() {
+		            $('#swp_result').html(data.message);
+		        }, 500);	
+		        setTimeout(function() {
+		            $('.search_item').addClass('fade_it_in');
+		        }, 1000);	        
 		    })
 		    // using the fail promise callback
 		    .fail(function(data) {
@@ -170,7 +178,16 @@ jQuery(document).ready(function($){
 
 
 	
-	
+	// Fire Modal
+	$('body').on('click', '.fire_modal', function(){
+		$('#modal6').modal('show');
+	});
+	$('.video_modal').on('hidden.bs.modal', function (e) {
+  		// $('.video-js')[0].player.pause();
+  		$('video-js').each(function(){
+  			$(this)[0].player.pause();
+  		});
+	});
 
 
 

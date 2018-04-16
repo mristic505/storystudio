@@ -22,7 +22,7 @@ get_header(); ?>
 				                <div class="n_holder">
 				                    <div class="counter"><span id="n1">0</span>%</div>
 				                </div>
-				                <div class="n_text">OF TEACHERS REPORTED THAT THEY HAVE GAINED EXPERIENCE IN USING THE ARTS IN THEIR CLASSROOM THROUGH THE SOTRY STUDIO PROGRAM.</div>
+				                <div class="n_text">OF TEACHERS REPORTED THAT THEY HAVE GAINED EXPERIENCE IN USING THE ARTS IN THEIR CLASSROOM THROUGH THE STORY STUDIO PROGRAM.</div>
 				            </div>
 				            <div class="col-sm n2">
 				                <div class="n_holder">
@@ -42,8 +42,8 @@ get_header(); ?>
 				</section>
 				<section class="gray hp_video">
 				    <div class="inner video_holder">
-				        <video id="my_video_1" class="video-js vjs-default-skin" poster="http://storystudio.mristic.com/wp-content/uploads/2018/04/2018-04-13.jpg" preload="none" controls="controls" width="940px" height="539px" data-setup="{ &quot;aspectRatio&quot;:&quot;940:539&quot;, &quot;playbackRates&quot;: [1, 1.5, 2] }">
-				            <source src="http://storystudio.mristic.com/wp-content/uploads/2018/04/STORY-STUDIO-Urban-Arts-Partnership.mp4" type="video/mp4" />
+				        <video id="my_video_1" class="video-js vjs-default-skin" poster="<?php echo home_url(); ?>/wp-content/uploads/2018/04/2018-04-13.jpg" preload="none" controls="controls" width="940px" height="539px" data-setup="{ &quot;aspectRatio&quot;:&quot;940:539&quot;, &quot;playbackRates&quot;: [1, 1.5, 2] }">
+				            <source src="<?php echo home_url(); ?>/wp-content/uploads/2018/04/STORY-STUDIO-Urban-Arts-Partnership.mp4" type="video/mp4" />
 				        </video>
 				    </div>
 				</section>

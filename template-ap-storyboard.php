@@ -26,9 +26,9 @@ get_header(); ?>
 									<h3 class="dropdown_title">PROJECT<br>PLANNING</h3>
 									<select class="selectpicker" data-live-search="true" onchange="gotopage(this)">
 										<option style="display: none;" selected="" disabled="">Please Select</option>		
-										<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/8-Week-Action-Plan.pdf">8 Week Action</option>
-										<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Materials-for-Collage-Project.pdf">Materials for Collage Project</option>
-										<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Teacher-Planning-Questions-1.pdf">Teacher Planning Questions</option>
+										<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/8-Week-Action-Plan.pdf">8 Week Action</option>
+										<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Materials-for-Collage-Project.pdf">Materials for Collage Project</option>
+										<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Teacher-Planning-Questions-1.pdf">Teacher Planning Questions</option>
 									</select>
 								</div>
 								<div class="col-md-3 col-sm-6 dropdown_holder">
@@ -36,15 +36,15 @@ get_header(); ?>
 									<h3 class="dropdown_title">LESSON<br> PLANS</h3>
 									<select class="selectpicker" data-live-search="true" onchange="gotopage(this)">
 										<option style="display: none;" selected="" disabled="">Please Select</option>		
-									  	<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Storyboard-Collage-Lesson-1.pdf">Story Board Collage Lesson #1</option>
-									  	<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Storyboard-Collage-Lesson-2.pdf">Story Board Collage Lesson #2</option>
-									  	<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Storyboard-Collage-Lesson-3.pdf">Story Board Collage Lesson #3</option>
-									  	<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Storyboard-Collage-Lesson-4.pdf">Story Board Collage Lesson #4</option>
-									  	<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Storyboard-Collage-Lesson-5.pdf">Story Board Collage Lesson #5</option>
-									  	<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Storyboard-Collage-Lesson-6.pdf">Story Board Collage Lesson #6</option>
-									  	<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Storyboard-Collage-Lesson-7.pdf">Story Board Collage Lesson #7</option>
-									  	<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Storyboard-Collage-Lesson-8.pdf">Story Board Collage Lesson #8</option>
-									  	<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Storyboard-Collage-Lesson-9.pdf">Story Board Collage Lesson #9</option>
+									  	<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Storyboard-Collage-Lesson-1.pdf">Story Board Collage Lesson #1</option>
+									  	<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Storyboard-Collage-Lesson-2.pdf">Story Board Collage Lesson #2</option>
+									  	<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Storyboard-Collage-Lesson-3.pdf">Story Board Collage Lesson #3</option>
+									  	<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Storyboard-Collage-Lesson-4.pdf">Story Board Collage Lesson #4</option>
+									  	<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Storyboard-Collage-Lesson-5.pdf">Story Board Collage Lesson #5</option>
+									  	<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Storyboard-Collage-Lesson-6.pdf">Story Board Collage Lesson #6</option>
+									  	<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Storyboard-Collage-Lesson-7.pdf">Story Board Collage Lesson #7</option>
+									  	<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Storyboard-Collage-Lesson-8.pdf">Story Board Collage Lesson #8</option>
+									  	<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Storyboard-Collage-Lesson-9.pdf">Story Board Collage Lesson #9</option>
 									</select>
 								</div>
 								<div class="col-md-3 col-sm-6 dropdown_holder">
@@ -52,8 +52,8 @@ get_header(); ?>
 									<h3 class="dropdown_title">VOCABULARY<br> AND READINGS</h3>
 									<select class="selectpicker" data-live-search="true" onchange="gotopage(this)">
 										<option style="display: none;" selected="" disabled="">Please Select</option>
-										<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Storyboard-Collage-Reading-List.pdf">Collage Reading List</option>
-										<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Storyboard-Collage-Vocabulary-List.pdf">Vocabulary List</option>
+										<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Storyboard-Collage-Reading-List.pdf">Collage Reading List</option>
+										<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Storyboard-Collage-Vocabulary-List.pdf">Vocabulary List</option>
 									</select>
 								</div>
 								<div class="col-md-3 col-sm-6 dropdown_holder">
@@ -61,11 +61,11 @@ get_header(); ?>
 									<h3 class="dropdown_title">TEMPLATES</h3>
 									<select class="selectpicker" data-live-search="true" onchange="gotopage(this)">
 										<option style="display: none;" selected="" disabled="">Please Select</option>
-										<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Elements-of-Storyboard.doc.pdf">Elements of Storyboard</option>
-										<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/emotionalmemoryworksheet.pdf">Emotional Memoery Worksheet</option>
-										<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Story-Guide-Organizer.pdf">Story Guide Organizer</option>
-										<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Storyboard-Template-1.pdf">Storyboard Template #1</option>
-										<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Storyboard-Template-4.pdf">Storyboard Template #4</option>
+										<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Elements-of-Storyboard.doc.pdf">Elements of Storyboard</option>
+										<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/emotionalmemoryworksheet.pdf">Emotional Memoery Worksheet</option>
+										<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Story-Guide-Organizer.pdf">Story Guide Organizer</option>
+										<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Storyboard-Template-1.pdf">Storyboard Template #1</option>
+										<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Storyboard-Template-4.pdf">Storyboard Template #4</option>
 									</select>
 								</div>
 							</div>
@@ -90,20 +90,13 @@ get_header(); ?>
 						<div class="col-md-6">
 						<img class="compact-mini-block-img" src="<?php echo get_template_directory_uri(); ?>/img/arrow-and-clipboard.jpg">
 					</div>
-						<div class="col-md-6 compact-mini-block__text-container pl-5 pt-5 white">
+						<div class="col-md-6 compact-mini-block__text-container pl-5 pt-5 gray">
 							<h2 class="compact-mini-block__text-title">Tutorials</h2>
-							<p>Learn how to create a 3-panel storyboard collage with these tutorials. Watch the video as you create your own artwork and practice for your lesson. Print out the step-by-step PDF for quick access as you teach.</p>
-						<!-- <div class="compact-mini-block__select-container">
-							<div class="dropdown_holder" style="text-align: left;">
-							<select class="selectpicker" data-live-search="true" tabindex="-98" onchange="gotopage(this)">
-									<option style="display: none;" selected="" disabled="">Please Select</option>
-									<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Effective-Storytelling-Composition.pdf">Effective Storytelling Comp</option>									
-								</select>
-							</div>
-						</div> -->
+							<p>Learn how to create a 3-panel storyboard collage with these tutorials. Watch the video as you create your own artwork and practice for your lesson. Print out the step-by-step PDF for quick access as you teach.</p>						
 						<div class="dropdown_holder" style="text-align: left;">
-							<select class="selectpicker" data-live-search="true" tabindex="-98" onchange="gotopage(this)">
+							<select class="selectpicker" data-live-search="true" tabindex="-98">
 								<option style="display: none;" selected="" disabled="">Please Select</option>
+								<option class="fire_modal" data-toggle="modal" data-target="#modal6">Collage Tutorial Video</option>
 							</select>
 						</div>
 					</div>	
@@ -119,7 +112,7 @@ get_header(); ?>
 				      <li><img src="<?php echo get_template_directory_uri(); ?>/img/vi3.png"></li>
 				      <li><img src="<?php echo get_template_directory_uri(); ?>/img/vi2.png"></li>
 				    </ul>
-				    <div style="text-align: center;"><a class="cta_blue" href="<?php echo home_url(); ?>/visual-inquiry">VIEW ALL</a></div>
+				    <div style="text-align: center;"><a class="cta_blue" href="<?php echo home_url(); ?>/visual-inquiry-artwork/?show=collage">VIEW ALL</a></div>
 				  </div>
 				</section>
 
@@ -127,18 +120,18 @@ get_header(); ?>
 					<div class="inner">
 					<div class="compact-mini-block mb-5 mt-5 no-gutters row">
 						<div class="col-md-6">
-						<img class="compact-mini-block-img" src="http://storystudio.mristic.com/wp-content/uploads/2018/04/reflection-and-assessment.jpg">
+						<img class="compact-mini-block-img" src="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Reflection-and-Assessment-1-1.png">
 					</div>
-						<div class="col-md-6 compact-mini-block__text-container pl-5 pt-5 white">
+						<div class="col-md-6 compact-mini-block__text-container pl-5 pt-5 gray">
 							<h2 class="compact-mini-block__text-title">Reflection And Assesment</h2>
 							<p>Teach your students how to write an artist statement and assess their final work with these templates and rubrics - focusing on both the visual components of the collage and written components of their story. </p>
 						<div class="">
 							<div class="dropdown_holder" style="text-align: left;">
 							<select class="selectpicker" data-live-search="true" tabindex="-98" onchange="gotopage(this)">
 									<option style="display: none;" selected="" disabled="">Please Select</option>
-									<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Storyboard-Rubric.docx.pdf">Storyboard Rubric</option>
-									<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Peer-Collage-Reflection-.pdf">Peer Collage Reflection</option>
-									<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Collage-Artist-Statement-Worksheet.pdf">Collage Artist Statement Worksheet</option>									
+									<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Storyboard-Rubric.docx.pdf">Storyboard Rubric</option>
+									<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Peer-Collage-Reflection-.pdf">Peer Collage Reflection</option>
+									<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Collage-Artist-Statement-Worksheet.pdf">Collage Artist Statement Worksheet</option>									
 								</select>
 							</div>
 						</div>
@@ -235,6 +228,22 @@ get_header(); ?>
       	<div class="modal-body">
 			<div class="inner video_holder">
 	        	<?php echo wp_get_attachment_image( 206, 'large', "", "" );  ?>
+			</div>  
+		</div>    
+    </div>
+  </div>
+</div>
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="modal6">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+    	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+      	<div class="modal-body">
+			<div class="inner video_holder">
+	        	<video id="my_video_1" class="video-js vjs-default-skin" poster="<?php echo home_url(); ?>/wp-content/uploads/2018/04/2018-04-13.jpg" preload="none" controls="controls" width="940px" height="539px" data-setup="{ &quot;aspectRatio&quot;:&quot;940:539&quot;, &quot;playbackRates&quot;: [1, 1.5, 2] }">
+				<source src="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Aaron-Belvedere-Middle-School-2016-1.mp4" type="video/mp4" />
+				</video>
 			</div>  
 		</div>    
     </div>

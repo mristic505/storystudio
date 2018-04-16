@@ -24,7 +24,7 @@ get_header(); ?>
 									<div class="row">
 										<div class="col">
 											<h2 class="compact-mini-block__text-title align-self-start">Watercolor Techniques</h2>
-											<p class="align-self-center pr-5">This lesson will teach students the foundations of watercolor through practicing various techniques. It can help prepare students for painting their self portraits.</p>
+											<p class="align-self-center pr-5">This lesson will teach students the foundations of watercolor through practicing various techniques. It will help prepare students for painting their self portraits.</p>
 											<a class="cta_blue align-self-end" href="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Color-Theory-and-Watercolor-Lesson-Plan.pdf" target="_blank">SEE MORE</a>
 										</div>
 									</div>
@@ -53,11 +53,8 @@ get_header(); ?>
 									<div class="row">
 										<div class="col">
 											<h2 class="compact-mini-block__text-title align-self-start">The Bad Haircut:<br>Listening & Writing</h2>
-											<p class="align-self-center pr-5">In supplement to the Storytelling project, this lesson will allow students to analyze and discuss the important elements of a performed story.</p>
-											<select class="selectpicker align-self-end" data-live-search="true" onchange="gotopage(this)">
-												<option style="display: none;" selected="" disabled="">Please Select</option>		
-												<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/The-Bad-Haircut-Stand-Alone-Lesson.pdf">Bad Haircut Stand Alone</option>
-											</select>
+											<p class="align-self-center pr-5">As supplement to the Storytelling project, this lesson will allow students to analyze and discuss the important elements of a performed story.</p>
+											<a target="_blank" class="cta_blue align-self-end" href="<?php echo home_url(); ?>/wp-content/uploads/2018/04/The-Bad-Haircut-Stand-Alone-Lesson.pdf">SEE MORE</a>
 										</div>
 									</div>
 								</div>

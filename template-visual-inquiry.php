@@ -43,7 +43,7 @@ get_header(); ?>
 									<h3 class="dropdown_title">HOW TO<br>SOURCE IMAGES</h3>
 									<select class="selectpicker" data-live-search="true" onchange="gotopage(this)">
 										<option style="display: none;" selected="" disabled="" >Please Select</option>		
-									  	<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/How-to-Source-Visual-Inquiry-Arwork.pdf">Inquiry Artwork</option>
+									  	<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/How-to-Source-Visual-Inquiry-Arwork.pdf">Inquiry Artwork</option>
 									</select>
 								</div>
 								<div class="col-md-4 dropdown_holder visual-inquiry-border">
@@ -51,7 +51,7 @@ get_header(); ?>
 									<h3 class="dropdown_title">FACILITATION<br>TIPS</h3>
 									<select class="selectpicker" data-live-search="true" onchange="gotopage(this)">
 										<option style="display: none;" selected="" disabled="" >Please Select</option>
-										<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/V.I.-Scaffolding-Questions-Activities.pdf">V.I. Scaffolding</option>
+										<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/V.I.-Scaffolding-Questions-Activities.pdf">V.I. Scaffolding</option>
 									</select>
 								</div>
 								<div class="col-md-4 dropdown_holder">
@@ -59,8 +59,8 @@ get_header(); ?>
 									<h3 class="dropdown_title">TEMPLATES AND<br>GRAPHIC ORGANIZERS</h3>
 									<select class="selectpicker" data-live-search="true" onchange="gotopage(this)">
 										<option style="display: none;" selected="" disabled="" >Please Select</option>
-										<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Visual-Inquiry-Graphic-Organizer-1.docx.pdf">Organizer #1</option>
-										<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Visual-Inquiry-Graphic-Organizer-2.docx.pdf">Organizer #2</option>
+										<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Visual-Inquiry-Graphic-Organizer-1.docx.pdf">Organizer #1</option>
+										<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Visual-Inquiry-Graphic-Organizer-2.docx.pdf">Organizer #2</option>
 									</select>
 								</div>
 							</div>

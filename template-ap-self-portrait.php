@@ -26,11 +26,11 @@ get_header(); ?>
 									<h3 class="dropdown_title">PROJECT<br>PLANNING</h3>
 									<select class="selectpicker" data-live-search="true" onchange="gotopage(this)">
 										<option style="display: none;" selected="" disabled="">Please Select</option>		
-										<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/6-Week-Action-Plan.pdf">6 Week Action Plan</option>
-										<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Core-curriculum-guidelines.pdf">Core Curriculum</option>
-										<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Process_-SS-Portrait-Project-.pdf">Portait Project</option>
-										<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/SUPPLY-LIST-FOR-SELF-PORTRAIT-PROJECT.pdf">Supply List</option>
-										<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Teacher-Planning-Questions.pdf">Teacher Planning Questions</option>
+										<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/6-Week-Action-Plan.pdf">6 Week Action Plan</option>
+										<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Core-curriculum-guidelines.pdf">Core Curriculum</option>
+										<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Process_-SS-Portrait-Project-.pdf">Portait Project</option>
+										<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/SUPPLY-LIST-FOR-SELF-PORTRAIT-PROJECT.pdf">Supply List</option>
+										<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Teacher-Planning-Questions.pdf">Teacher Planning Questions</option>
 									</select>
 								</div>
 								<div class="col-md-3 col-sm-6 dropdown_holder">
@@ -38,11 +38,11 @@ get_header(); ?>
 									<h3 class="dropdown_title">LESSON<br>PLANS</h3>
 									<select class="selectpicker" data-live-search="true" onchange="gotopage(this)">
 										<option style="display: none;" selected="" disabled="">Please Select</option>		
-									  	<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Self-Portrait-Lesson-1.pdf">Self Portrait #1</option>
-									  	<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Self-Portrait-Lesson-2.pdf">Self Portrait #2</option>
-									  	<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Self-Portrait-Lesson-5.pdf">Self Portrait #5</option>
-									  	<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Self-Portrait-Lesson-6.pdf">Self Portrait #6</option>
-									  	<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Self-Portrait-Lesson-7.pdf">Self Portrait #7</option>
+									  	<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Self-Portrait-Lesson-1.pdf">Self Portrait #1</option>
+									  	<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Self-Portrait-Lesson-2.pdf">Self Portrait #2</option>
+									  	<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Self-Portrait-Lesson-5.pdf">Self Portrait #5</option>
+									  	<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Self-Portrait-Lesson-6.pdf">Self Portrait #6</option>
+									  	<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Self-Portrait-Lesson-7.pdf">Self Portrait #7</option>
 									</select>
 								</div>
 								<div class="col-md-3 col-sm-6 dropdown_holder">
@@ -50,8 +50,8 @@ get_header(); ?>
 									<h3 class="dropdown_title">VOCABULARY<br> AND READINGS</h3>
 									<select class="selectpicker" data-live-search="true" onchange="gotopage(this)">
 										<option style="display: none;" selected="" disabled="">Please Select</option>
-										<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Reading-List-for-Portrait-Project.pdf">Portrait Project Reading List</option>
-										<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Vocabulary-List-for-Portrait-Project.pdf">Vocabulary List</option>
+										<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Reading-List-for-Portrait-Project.pdf">Portrait Project Reading List</option>
+										<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Vocabulary-List-for-Portrait-Project.pdf">Vocabulary List</option>
 									</select>
 								</div>
 								<div class="col-md-3 col-sm-6 dropdown_holder">
@@ -59,9 +59,9 @@ get_header(); ?>
 									<h3 class="dropdown_title">TEMPLATES</h3>
 									<select class="selectpicker" data-live-search="true" onchange="gotopage(this)">
 										<option style="display: none;" selected="" disabled="">Please Select</option>
-										<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/“I-Am-From”-Poem-Template.pdf">"I am From" Poem</option>
-										<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Autobiographic-Poem-Graphic-Org.pdf">Poem Autobiography</option>
-										<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/ROLE-ON-THE-WALL-fig.docx.pdf">Role on the Wall Figure</option>
+										<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/“I-Am-From”-Poem-Template.pdf">"I am From" Poem</option>
+										<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Autobiographic-Poem-Graphic-Org.pdf">Poem Autobiography</option>
+										<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/ROLE-ON-THE-WALL-fig.docx.pdf">Role on the Wall Figure</option>
 									</select>
 								</div>
 							</div>
@@ -72,14 +72,16 @@ get_header(); ?>
 					<div class="inner">
 					<div class="compact-mini-block mb-5 mt-5 no-gutters row">
 						<div class="col-md-6">
-						<img class="compact-mini-block-img" src="<?php echo get_template_directory_uri(); ?>/img/arrow-and-clipboard.jpg">
+						<img class="compact-mini-block-img" src="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Tutorials-1.png">
 					</div>
-						<div class="col-md-6 compact-mini-block__text-container pl-5 pt-5 white">
+						<div class="col-md-6 compact-mini-block__text-container pl-5 pt-5 gray">
 							<h2 class="compact-mini-block__text-title">Tutorials</h2>
 							<p>Learn how to create a 3-panel storyboard collage with these tutorials. Watch the video as you create your own artwork and practice for your lesson. Print out the step-by-step PDF for quick access as you teach.</p>
 						<div class="dropdown_holder" style="text-align: left;">
 							<select class="selectpicker" data-live-search="true" tabindex="-98" onchange="gotopage(this)">
 								<option style="display: none;" selected="" disabled="">Please Select</option>
+								<option value="<?php echo home_url(); ?>/themencode-pdf-viewer-sc/?tnc_pvfw=ZmlsZT1odHRwOi8vc3RvcnlzdHVkaW8ubXJpc3RpYy5uZXQvd3AtY29udGVudC91cGxvYWRzLzIwMTgvMDQvU3RlcC1ieS1zdGVwLVBvcnRyYWl0LVR1dG9yaWFsLTEtMS5wZGYmc2V0dGluZ3M9Jmxhbmc9ZW4tVVM=#page=&zoom=auto&pagemode=">Step By Step Portrait Tutorial</option>
+								<option value="<?php echo home_url(); ?>/themencode-pdf-viewer-sc/?tnc_pvfw=ZmlsZT1odHRwOi8vc3RvcnlzdHVkaW8ubXJpc3RpYy5uZXQvd3AtY29udGVudC91cGxvYWRzLzIwMTgvMDQvUG9ydHJhaXQtUHJvamVjdC1JbnN0cnVjdGlvbnMtMS5wZGYmc2V0dGluZ3M9Jmxhbmc9ZW4tVVM=#page=&zoom=auto&pagemode=">Portrait Project Instructions</option>
 							</select>
 						</div>
 					</div>	
@@ -89,12 +91,11 @@ get_header(); ?>
 				  <div class="inner">
 				    <h2>VISUAL INQUIRY ARTWORK</h2>
 				    <ul class="responsive_visual_inquiry">
-				      <li><img src="<?php echo get_template_directory_uri(); ?>/img/ap-storytelling-1.jpg"></li>
-				      <li><img src="<?php echo get_template_directory_uri(); ?>/img/ap-storytelling-2.jpg"></li>
-				      <li><img src="<?php echo get_template_directory_uri(); ?>/img/ap-storytelling-3.jpg"></li>
-				      <li><img src="<?php echo get_template_directory_uri(); ?>/img/vi2.png"></li>
+				      <li><a href="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Vivian-Maier.pdf"><img src="<?php echo home_url(); ?>/wp-content/uploads/2018/04/catlett.jpg"></a></li>
+				      <li><a href="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Elizabeth-Catlett.pdf"><img src="<?php echo home_url(); ?>/wp-content/uploads/2018/04/maier.jpg"></a></li>
+				      <li><a href="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Wangechi-Mutu.pdf"><img src="<?php echo home_url(); ?>/wp-content/uploads/2018/04/mutu.jpg"></a></li>
 				    </ul>
-				    <div style="text-align: center;"><a class="cta_blue" href="<?php echo home_url(); ?>/visual-inquiry">VIEW ALL</a></div>
+				    <div style="text-align: center;"><a class="cta_blue" href="<?php echo home_url(); ?>/visual-inquiry/visual-inquiry-artwork/?show=self-portrait">VIEW ALL</a></div>
 				  </div>
 				</section>
 				<section class="white">
@@ -112,8 +113,8 @@ get_header(); ?>
 											<div class="dropdown_holder" style="text-align: left;">
 												<select class="selectpicker" data-live-search="true" tabindex="-98" onchange="gotopage(this)">
 													<option style="display: none;" selected="" disabled="">Please Select</option>		
-													<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Portrait-Artist-Statement-Worksheet.pdf">Portrait Artist Worksheet</option>
-													<option value="http://storystudio.mristic.com/wp-content/uploads/2018/04/Self-Portrait-Rubric.docx.pdf">Self Portrait Rubric</option>
+													<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Portrait-Artist-Statement-Worksheet.pdf">Portrait Artist Worksheet</option>
+													<option value="<?php echo home_url(); ?>/wp-content/uploads/2018/04/Self-Portrait-Rubric.docx.pdf">Self Portrait Rubric</option>
 
 												</select>
 											</div>
@@ -124,7 +125,7 @@ get_header(); ?>
 					    </div>
 				    </div>
 				</section>
-				<section class="white student_work">
+				<section class="gray student_work">
 				  <div class="inner">
 				    <h2>STUDENT ARTWORK</h2>
 				    <ul class="responsive">
